@@ -11,7 +11,7 @@ export default function Modal(props) {
       </h4>
       <button
         onClick={props.cancel}
-        className="text-lg m-5 w-20 shadow-sm shadow-slate-900 hover:bg-slate-200 transition-all text-center  rounded bg-slate-50 text-slate-900 "
+        className="text-lg z-10  m-5 w-20 shadow-sm shadow-slate-900 hover:bg-slate-200 transition-all text-center  rounded bg-slate-50 text-slate-900 "
       >
         Cancel
       </button>
